@@ -1,0 +1,147 @@
+!-----------------------------------
+! Xft
+!-----------------------------------
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+!-----------------------------------
+! Colors
+!-----------------------------------
+!! special
+!*.foreground:   #f1ece8
+!*.background:   #2b3033
+!*.cursorColor:  #f1ece8
+!
+!! black
+!*.color0:       #2b3033
+!*.color8:       #2b3033
+!
+!! red
+!*.color1:       #924a48
+!*.color9:       #924a48
+!
+!! green
+!*.color2:       #b5c48b
+!*.color10:      #b5c48b
+!
+!! yellow
+!*.color3:       #dac298
+!*.color11:      #dac298
+!
+!! blue
+!*.color4:       #4aadca
+!*.color12:      #4aadca
+!
+!! magenta
+!*.color5:       #f6a2af
+!*.color13:      #f6a2af
+!
+!! cyan
+!*.color6:       #2f779a
+!*.color14:      #2f7790
+!
+!! white
+!*.color7:       #f1ece8
+!*.color15:      #f1ece8
+
+! special
+*.foreground:   #d8dee9
+*.background:   #2e3440
+*.cursorColor:  #d8dee9
+
+! black
+*.color0:       #3b4252
+*.color8:       #4c566a
+
+! red
+*.color1:       #bf616a
+*.color9:       #bf616a
+
+! green
+*.color2:       #a3be8c
+*.color10:      #a3be8c
+
+! yellow
+*.color3:       #ebcb8b
+*.color11:      #ebcb8b
+
+! blue
+*.color4:       #81a1c1
+*.color12:      #81a1c1
+
+! magenta
+*.color5:       #b48ead
+*.color13:      #b48ead
+
+! cyan
+*.color6:       #88c0d0
+*.color14:      #8fbcbb
+
+! white
+*.color7:       #e5e9f0
+*.color15:      #eceff4
+
+!-----------------------------------
+! WIP
+!-----------------------------------
+!! special
+!*.foreground:   #63393a
+!*.background:   #e0cfc3
+!*.cursorColor:  #98595a
+!
+!! black
+!*.color0:       #3b4252
+!*.color8:       #4c566a
+!
+!! green
+!*.color1:       #8bb351
+!*.color9:       #8bb351
+!
+!! red
+!*.color2:       #9d273e
+!*.color10:      #9d273e
+!
+!! yellow
+!*.color3:       #eec05e
+!*.color11:      #eec05e
+!
+!! magenta
+!*.color4:       #b0649c
+!*.color12:      #b0649c
+!
+!! blue
+!*.color5:       #6065a2
+!*.color13:      #6065a2
+!
+!! cyan
+!*.color6:       #c12d42
+!*.color14:      #c12d42
+!
+!! white
+!*.color7:       #63393a
+!*.color15:      #63393a
+
+
+!-----------------------------------
+! URxvt
+!-----------------------------------
+URxvt*color10:			#81a1c1
+!URxvt.font:			xft: BlexMono Nerd Font Mono:size=11
+!URxvt.font:xft:scientifica:size=11
+URxvt.font: xft:Inconsolata:size=12
+!URxvt.font:xft:curie:pixelsize=11:antialias=false
+!xft:Knack Nerd Font:size=11
+!xft:Hack Nerd Font Mono:size=11
+!xft:DejaVu Sans Mono:size=11,xft:TerminessTTFNerdFontMono
+URxvt.letterSpace:	        0
+!URxvt.lineSpace:                10
+URxvt.internalBorder:		20
+URxvt*scrollBar:		false
+URxvt*mouseWheelScrollPage:	false
+URxvt*cursorBlink:		true
+URxvt*saveLines:		5000
