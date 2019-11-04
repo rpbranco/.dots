@@ -1,0 +1,90 @@
+* {
+    text-color:  #d8dee9;
+    background-color:  rgba(0,0,0,0);
+    dark: #2e3440;
+    darktransparent: #2e3440cc;
+    // Black
+    black:       #3b4252;
+    lightblack:  #4c566a;
+    //
+    // Red
+    red:         #bf616a;
+    lightred:    #bf616a;
+    //
+    // Green
+    green:       #a3be8c;
+    lightgreen:  #a3be8c;
+    //
+    // Yellow
+    yellow:      #ebcb8b;
+    lightyellow: #ebcb8b;
+    //
+    // Blue
+    blue:        #81a1c1;
+    lightblue:   #81a1c1;
+    //
+    // Magenta
+    magenta:      #b48ead;
+    lightmagenta: #b48ead;
+    //
+    // Cyan
+    cyan:         #88c0d0;
+    lightcyan:    #8fbcbb;
+    //
+    // White
+    white:        #e5e9f0;
+    lightwhite:   #eceff4;
+    //
+    // Bold, Italic, Underline
+    highlight:     bold #d8dee9;
+}
+#window {
+    fullscreen: true;
+    location: west;
+    anchor:   west;
+//    border:  0px 2px 0px 0px;
+    text-color: @white;
+
+    orientation: horizontal;
+    children: [mainbox, dummy];
+}
+
+#dummy {
+    expand: true;
+}
+
+#sidebar {
+    background-color: @lightblack;
+}
+#button selected {
+    border-color: @lightgreen;
+    text-color: @lightgreen;
+}
+#entry {
+    width: 20em;
+}
+#inputbar {
+    background-color: @dark;
+    text-color: @lightgreen;
+    padding: 0.4em;
+}
+#mainbox {
+    expand: false;
+    background-color: @darktransparent;
+}
+#listview {
+    dynamic: false;
+    lines: 0;
+}
+#element {
+    padding: 0.4em 0.4em;
+    background-color: @background-color;
+    text-color: @white;
+}
+#element selected  normal {
+    background-color: @blue;
+    text-color: @dark;
+}
+#inputbar {
+    children:   [ entry ];
+}
